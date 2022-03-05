@@ -30,7 +30,7 @@
             </ol>
 
             <h4>Changelog</h4>
-            <p>Please view the latest <a href="https://www.appfromlab.com/woocommerce-utm-tracker-changelog/" target="_blank" rel="noopener">changelog</a> on our website.</a>
+            <p>Please view the latest <a href="https://www.appfromlab.com/woocommerce-utm-tracker-changelog/" target="_blank" rel="noopener">changelog</a> on our website.</p>
 
           </div>
         </div>

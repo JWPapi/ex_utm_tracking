@@ -142,7 +142,7 @@ class AFL_WC_UTM_ADMIN {
 
 		add_menu_page(
 			'AFL UTM Tracker',
-			'AFL UTM Tracker',
+			'Exalting Tracker',
 			'afl_wc_utm_admin_view',
 			'afl-wc-utm',
 			array('AFL_WC_UTM_ADMIN_MAIN_CONTROLLER', 'page'),

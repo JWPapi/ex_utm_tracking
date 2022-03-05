@@ -4,7 +4,7 @@
 Plugin Name: Ex Utm Tracking
 Plugin URI: http://URI_Of_Page_Describing_Plugin_and_Updates
 Description: A brief description of the Plugin.
-Version: 1.0.1
+Version: 1.0.2
 Author: julian
 Author URI: http://URI_Of_The_Plugin_Author
 License: A "Slug" license name e.g. GPL2
@@ -38,3 +38,16 @@ AFL_WC_UTM::get_instance()->run();
 
 include('utm_api.php'); // API
 
+
+require 'plugin-update-checker/plugin-update-checker.php';
+$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+  'https://github.com/JWPapi/ex_utm_tracking',
+  __FILE__,
+  'ex_utm_tracking'
+);
+
+//Set the branch that contains the stable release.
+$myUpdateChecker->setBranch('stable-branch-name');
+
+//Optional: If you're using a private repository, specify the access token like this:
+$myUpdateChecker->setAuthentication('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');
